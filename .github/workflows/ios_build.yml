@@ -13,7 +13,7 @@ jobs:
       - name: Setup Flutter
         uses: subosito/flutter-action@v1
         with:
-          flutter-version: 'latest' # or specify a specific version
+          flutter-version: '3.13.0' # or specify a specific version
       - name: Install dependencies
         run: flutter pub get
       - name: Build iOS app
